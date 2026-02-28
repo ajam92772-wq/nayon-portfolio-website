@@ -1,0 +1,109 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #1a1a1a;
+    --accent-color: #6c63ff;
+    --secondary-bg: #f4f4f4;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+}
+
+.logo span {
+    color: var(--accent-color);
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero span {
+    color: var(--accent-color);
+}
+
+.section {
+    padding: 100px 5%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-img img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.contact-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 12px;
+    background: var(--text-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background: var(--accent-color);
+}
+
+footer {
+    background: var(--text-color);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
